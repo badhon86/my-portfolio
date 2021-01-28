@@ -373,6 +373,112 @@ section .title::after{
 .skills-content .right .mysql::before{
     width: 70%;
 }
+.skills-content .right .bootstrap::before{
+    width: 60%;
+}
+.skills-content .right .tailwind::before{
+    width: 30%;
+}
+.skills-content .right .vueJs::before{
+    width: 40%;
+}
+.skills-content .right .vueApollo::before{
+    width: 50%;
+}
+.skills-content .right .vuetify::before{
+    width: 50%;
+}
+.skills-content .right .vuex::before{
+    width: 50%;
+}
+.skills-content .right .vueRouter::before{
+    width: 45%;
+}
+.skills-content .right .axios::before{
+    width: 60%;
+}
+.skills-content .right .ajax::before{
+    width: 50%;
+}
+.skills-content .right .uiux::before{
+    width: 60%;
+}
+
+
+/* content left */
+.skills .skills-content .left .bars{
+    margin-bottom: 15px;
+}
+.skills .skills-content .left .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .skills-content .left span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.skills .skills-content .left .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+.skills .skills-content .left .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: crimson;
+}
+.skills-content .left .html::before{
+    width: 90%;
+}
+.skills-content .left .css::before{
+    width: 60%;
+}
+.skills-content .left .js::before{
+    width: 80%;
+}
+.skills-content .left .php::before{
+    width: 50%;
+}
+.skills-content .left .mysql::before{
+    width: 70%;
+}
+.skills-content .left .bootstrap::before{
+    width: 60%;
+}
+.skills-content .left .tailwind::before{
+    width: 30%;
+}
+.skills-content .left .vueJs::before{
+    width: 40%;
+}
+.skills-content .left .vueApollo::before{
+    width: 50%;
+}
+.skills-content .left .vuetify::before{
+    width: 50%;
+}
+.skills-content .left .vuex::before{
+    width: 50%;
+}
+.skills-content .left .vueRouter::before{
+    width: 45%;
+}
+.skills-content .left .axios::before{
+    width: 60%;
+}
+.skills-content .left .ajax::before{
+    width: 50%;
+}
+.skills-content .left .uiux::before{
+    width: 60%;
+}
+
 
 /* teams section styling */
 .teams .title::after{
