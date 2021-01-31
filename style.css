@@ -315,6 +315,25 @@ section .title::after{
 .skills .skills-content .left p{
     text-align: justify;
 }
+
+/* skills section styling */
+
+.skillsT .title::after{
+    content: "Technology i know";
+}
+.skillsT .skillsT-content .column{
+    width: calc(50% - 30px);
+}
+.skillsT .skillsT-content .left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.skillsT .skillsT-content .left p{
+    text-align: justify;
+}
+
+
 .badbutton{
     display: inline-block;
     background:none;
