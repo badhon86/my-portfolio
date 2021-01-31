@@ -299,7 +299,7 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
-/* skills section styling */
+/* skillsT section styling */
 
 .skills .title::after{
     content: "what i know";
