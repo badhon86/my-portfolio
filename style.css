@@ -299,7 +299,7 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
-/* skillsT section styling */
+/* skills section styling */
 
 .skills .title::after{
     content: "what i know";
@@ -316,7 +316,7 @@ section .title::after{
     text-align: justify;
 }
 
-/* skills section styling */
+/* skillsT section styling */
 
 .skillsT .title::after{
     content: "Technology i know";
@@ -331,6 +331,169 @@ section .title::after{
 }
 .skillsT .skillsT-content .left p{
     text-align: justify;
+}
+.skills .skills-content .left a{
+    display: inline-block;
+    background: rgb(37, 121, 34);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid rgb(37, 121, 34);
+    transition: all 0.3s ease;
+}
+.skills .skills-content .left a:hover{
+    color: rgb(37, 121, 34);
+    background: none;
+}
+.skills .skills-content .right .bars{
+    margin-bottom: 15px;
+}
+.skills .skills-content .right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .skills-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.skills .skills-content .right .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+.skills .skills-content .right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(37, 121, 34);
+}
+.skills-content .right .html::before{
+    width: 90%;
+}
+.skills-content .right .css::before{
+    width: 60%;
+}
+.skills-content .right .js::before{
+    width: 80%;
+}
+.skills-content .right .php::before{
+    width: 50%;
+}
+.skills-content .right .mysql::before{
+    width: 70%;
+}
+.skills-content .right .bootstrap::before{
+    width: 60%;
+}
+.skills-content .right .tailwind::before{
+    width: 30%;
+}
+.skills-content .right .vueJs::before{
+    width: 40%;
+}
+.skills-content .right .vueApollo::before{
+    width: 50%;
+}
+.skills-content .right .vuetify::before{
+    width: 50%;
+}
+.skills-content .right .vuex::before{
+    width: 50%;
+}
+.skills-content .right .vueRouter::before{
+    width: 45%;
+}
+.skills-content .right .axios::before{
+    width: 60%;
+}
+.skills-content .right .ajax::before{
+    width: 50%;
+}
+.skills-content .right .uiux::before{
+    width: 60%;
+}
+
+
+/* content left */
+.skills .skills-content .left .bars{
+    margin-bottom: 15px;
+}
+.skills .skills-content .left .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .skills-content .left span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.skills .skills-content .left .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+.skills .skills-content .left .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(37, 121, 34);
+}
+.skills-content .left .html::before{
+    width: 90%;
+}
+.skills-content .left .css::before{
+    width: 60%;
+}
+.skills-content .left .js::before{
+    width: 80%;
+}
+.skills-content .left .php::before{
+    width: 50%;
+}
+.skills-content .left .mysql::before{
+    width: 70%;
+}
+.skills-content .left .bootstrap::before{
+    width: 60%;
+}
+.skills-content .left .tailwind::before{
+    width: 30%;
+}
+.skills-content .left .vueJs::before{
+    width: 40%;
+}
+.skills-content .left .vueApollo::before{
+    width: 50%;
+}
+.skillsT-content .left .vuetify::before{
+    width: 50%;
+}
+.skillsT-content .left .vuex::before{
+    width: 50%;
+}
+.skillsT-content .left .vueRouter::before{
+    width: 45%;
+}
+.skillsT-content .left .axios::before{
+    width: 60%;
+}
+.skillsT-content .left .ajax::before{
+    width: 50%;
+}
+.skillsT-content .left .uiux::before{
+    width: 60%;
 }
 
 
