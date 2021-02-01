@@ -420,9 +420,20 @@ section .title::after{
 .skills-content .right .uiux::before{
     width: 60%;
 }
+.skills-content .right .datastructure::before{
+    width: 60%;
+}
+.skills-content .right .heroku::before{
+    width: 90%;
+}
+.skills-content .right .trello::before{
+    width: 90%;
+}
+
 
 
 /* content left */
+
 .skills .skills-content .left .bars{
     margin-bottom: 15px;
 }
@@ -495,6 +506,18 @@ section .title::after{
 .skills-content .left .uiux::before{
     width: 60%;
 }
+
+.skills-content .left .database::before{
+    width: 60%;
+}
+.skills-content .left .bitbucket::before{
+    width: 90%;
+}
+.skills-content .left .git::before{
+    width: 90%;
+}
+
+
 
 
 /* teams section styling */
